@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import ToolsNav from "@/components/tools-nav";
 import { FFmpeg } from "@ffmpeg/ffmpeg";
 import { fetchFile, toBlobURL } from "@ffmpeg/util";
 import { cleanOutputName, isVideoFile, stripMetadataArgs, videoFileExt } from "@/lib/video-metadata";
@@ -247,6 +248,7 @@ export default function VideoCleanPage() {
 
       <main className="relative min-h-screen px-5 py-12 sm:py-16">
         <div className="max-w-3xl mx-auto">
+          <ToolsNav current="/video" />
           <div className="text-center mb-10">
             <p className="text-[11px] font-bold tracking-widest text-indigo-500 mb-2">
               TOOL · METADATA
@@ -338,8 +340,8 @@ export default function VideoCleanPage() {
           </div>
 
           <p className="text-center mt-8">
-            <a href="/" className="text-sm font-semibold text-indigo-600 hover:text-indigo-700">
-              ← Voltar ao site
+            <a href="/ferramentas" className="text-sm font-semibold text-indigo-600 hover:text-indigo-700">
+              ← Voltar às ferramentas
             </a>
           </p>
         </div>

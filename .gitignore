@@ -23,12 +23,18 @@ yarn-error.log*
 .env*.local
 .env
 
+# logs do script ActiveCampaign
+/scripts/logs/
+
 # vercel
 .vercel
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# arquivos temporários das ferramentas (assets, gerações, criativos)
+/data
 
 # temp processing
 /tmp
