@@ -634,6 +634,11 @@ export default function DigitalisPage() {
                   Rua Washington Luís, 59 · Centro
                   <br />
                   Nossa Senhora das Graças – PR, 86680-000
+                  <br />
+                  Phone:{" "}
+                  <a href="tel:+5583986039538" className="hover:text-indigo-600 transition-colors">
+                    +55 83 98603-9538
+                  </a>
                 </span>
               </address>
             </div>

@@ -25,6 +25,9 @@ export const metadata = {
     title: "Digitalis Infoproducts",
     description: "Digital products and online education for the Latin American market.",
   },
+  other: {
+    "facebook-domain-verification": "ks95h1987y1ob05dy5wt1l1qcv83e7",
+  },
 };
 
 export const viewport = {
